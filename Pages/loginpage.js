@@ -13,8 +13,6 @@ class LoginPage {
 
 		element(by.xpath(userNameSelector)).sendKeys(userName);
 		element(by.xpath(passwordSelector)).sendKeys(password);
-		/*element(by.xpath(userNameSelector)).sendKeys(userName);
-		element(by.xpath(passwordSelector)).sendKeys(password);*/
 		element(by.xpath(loginButtonSelector)).click();
 	}
 }
